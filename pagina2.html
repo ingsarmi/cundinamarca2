@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cundinamarca</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="contenedor">
+        <div class="contenedorb">
+            <a href="index.html"><div class="buttonc">Pagina 1</div></a>
+        </div>
+        <hr>
+        <img src="img/Recurso 1-100.jpg" alt="">
+            <!-- Apartado del banner desde aca -->
+            <div class="img-graficos">
+                <div class="trazado1">
+                    <span class="text_1">Especialización<br></span>
+                    <span class="text_2">Pedagogía para <br></span>
+                    <span class="text_3">la Conservación Convivencia<br></span>
+                </div>
+            </div>
+
+            <div class="espacio"></div>
+
+            <div class="info5">
+                <div>
+                    <div class="recuadro">
+                        <div class="boton2v" id="btn6a" onclick="Menu1()">
+                        <img class="filtro" src="img/rea1.png" alt="">
+                        <p>REA 1</p>
+                        </div>
+                        <div class="separador">
+                            <img  src="img/separador.png" alt="">
+                        </div>  
+                        <div class="boton2" id="btn7a" onclick="Menu2()">
+                        <img class="filtro" src="img/exp.png" alt="">
+                        <p>EXPERIENCIA</p>
+                        </div>
+                    </div>
+
+                    <div class="mostrar6" id="btn6">
+                        <p>En esta experiencia los estudiantes podrán profundizar y discutir sobre las teorías que permiten la interrelación en el entramado de la vida misma, para esto acudirán a unas lecturas los diferentes recursos educativos para reconocer los avances epistemológicos del desarrollo para la organización comunitaria y la construcción de redes sociales. Esta experiencia consta de tres actividades que se desarrollarán durante 5 semanas.
+                        </p>
+                    </div>
+                    <div class="esconder7" id="btn7">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quis illum, quaerat cumque culpa aliquid dolorum! Molestias temporibus inventore error quis quos dolore! Libero a quos at velit praesentium maxime.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="espacio"></div>
+            <!-- Banner divisor -->
+            <div class="info6">
+                <div class="actividad">
+                    
+                        <p>Actividad <br>
+                        <span class="fuente">1</span></p>
+                    
+                </div>
+                <div class="actividad2">
+                    <div class="prueba">
+                        <p>Problematicas y potencialidades desde el cuidado y la calidad de vida</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- banner divisor fin -->
+            <p>En la semana 1 los estudiantes se organizan en grupos de 3 o 4 estipulados para el desarrollo de la actividad realizan la lectura de la pedagogía asignada (pedagogías ellas la pedagogía de la ecología profunda, la pedagogía de la muerte, la pedagogía bioética, la pedagogía para cuidado), al finalizar preparan el material conceptual colectivo que evidencie lo analizado.</p>
+            <img src="img/Recurso 5.jpg" alt="">
+            <!-- banner recursos educativos -->
+            <div class="info7">
+                <img src="img/recursosedu.png" alt="">
+                <div class="separador2">
+                    <img src="img/separador2.png" alt="">
+                </div>
+                <p>Recursos educativos</p>
+            </div>
+            <!-- banner recursos educativos fin -->
+            <img src="img/Recurso 8.jpg" alt="">
+
+            <div class="info6">
+                <div class="actividad">
+                    
+                        <p>Actividad <br>
+                        <span class="fuente">2</span></p>
+                    
+                </div>
+                <div class="actividad2">
+                    <div class="prueba">
+                        <p>Individuo y desarrollo: El colibrí y el bosque</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <p>En la semana 1 los estudiantes se organizan en grupos de 3 o 4 estipulados para el desarrollo de la actividad realizan la lectura de la pedagogía asignada (pedagogías ellas la pedagogía de la ecología profunda, la pedagogía de la muerte, la pedagogía bioética, la pedagogía para cuidado), al finalizar preparan el material conceptual colectivo que evidencie lo analizado.</p>
+            <img src="img/Recurso 9.jpg" alt="">
+            <div class="info7">
+                <img src="img/recursosedu.png" alt="">
+                <div class="separador2">
+                    <img src="img/separador2.png" alt="">
+                </div>
+                <p>Recursos educativos</p>
+            </div>
+            <img src="img/Recurso 10.jpg" alt="">
+            <!-- botones finales -->
+            <ul class="info8">
+                <li class="nav-link">
+                    <a class="btnatras" href="">
+                        <img class="icon icon-dashboard" src="img/atras.svg" alt="">
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a class="btncasa" href="">
+                        <img class="icon" src="img/casa.svg" alt="">
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a class="btnsiguiente" href="">
+                        <img class="icon" src="img/adelante.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </section> 
+    <script type='text/javascript'>
+        function Menu1() { 
+            /* $( ".text_1" ).css('font-size', '100px'); */
+            document.getElementById("btn6").className = "mostrar6";
+            document.getElementById("btn7").className = "esconder7";
+
+            
+            document.getElementById("btn6a").className = "boton2v";
+            document.getElementById("btn7a").className = "boton2";
+
+            
+        }
+        function Menu2() { 
+            /* $( ".text_1" ).css('font-size', '100px'); */
+            document.getElementById("btn6").className = "esconder6";
+            document.getElementById("btn7").className = "mostrar7";
+
+
+            document.getElementById("btn6a").className = "boton2";
+            document.getElementById("btn7a").className = "boton2v";
+
+        }
+    </script> 
+</body>
+</html>
