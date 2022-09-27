@@ -418,6 +418,7 @@ color: #000000;
 }
 .icon{
     width: 35px;
+    padding-left: 0px;
 }
 
 .btnatras:hover .icon, .btncasa:hover .icon, .btnsiguiente:hover .icon {
