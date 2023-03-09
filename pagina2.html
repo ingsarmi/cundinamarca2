@@ -26,29 +26,48 @@
             <!-- Apartado del banner hasta aca -->
             <!-- Espacio en blanco -->
             <div class="espacio"></div>
-           
+           <!-- Espacio del interactivo Temas-->
+           <div class="button-container">
+            <button class="square-buttona" id="miMenuTema1b">Tema 1</button>
+            <button class="square-button" id="miMenuTema2b">Tema 2</button>
+          </div>
+           <div class="temas">
+            <div>
+                <div class="mostrar8" id="miMenuTema1t">
+                    <p>En esta experiencia los estudiantes podrán profundizar y discutir sobre las teorías que permiten la interrelación en el entramado de la vida misma, para esto acudirán a unas lecturas los diferentes recursos educativos para reconocer los avances epistemológicos del desarrollo para la organización comunitaria y la construcción de redes sociales. Esta experiencia consta de tres actividades que se desarrollarán durante 5 semanas.
+                    </p>
+                </div>
+                <div class="esconder9" id="miMenuTema2t">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quis illum, quaerat cumque culpa aliquid dolorum! Molestias temporibus inventore error quis quos dolore! Libero a quos at velit praesentium maxime.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+           <!-- Espacio en blanco -->
+           <div class="espacio"></div>
             <!-- Espacio del interactivo -->
             <div class="info5">
                 <div>
                     <div class="recuadro">
-                        <div class="boton2v" id="btn6a" onclick="Menu1()">
+                        <div class="boton2v" id="MenuRea1b">
                         <img class="filtro" src="img/rea1.png" alt="">
                         <p>REA 1</p>
                         </div>
                         <div class="separador">
                             <img  src="img/separador.png" alt="">
                         </div>  
-                        <div class="boton2" id="btn7a" onclick="Menu2()">
+                        <div class="boton2" id="MenuRea2b">
                         <img class="filtro" src="img/exp.png" alt="">
                         <p>EXPERIENCIA</p>
                         </div>
                     </div>
 
-                    <div class="mostrar6" id="btn6">
+                    <div class="mostrar6" id="MenuRea1t">
                         <p>En esta experiencia los estudiantes podrán profundizar y discutir sobre las teorías que permiten la interrelación en el entramado de la vida misma, para esto acudirán a unas lecturas los diferentes recursos educativos para reconocer los avances epistemológicos del desarrollo para la organización comunitaria y la construcción de redes sociales. Esta experiencia consta de tres actividades que se desarrollarán durante 5 semanas.
                         </p>
                     </div>
-                    <div class="esconder7" id="btn7">
+                    <div class="esconder7" id="MenuRea2t">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quis illum, quaerat cumque culpa aliquid dolorum! Molestias temporibus inventore error quis quos dolore! Libero a quos at velit praesentium maxime.
                         </p>
                     </div>
@@ -128,28 +147,6 @@
                 </li>
             </ul>
         </section> 
-    <script type='text/javascript'>
-        function Menu1() { 
-            /* $( ".text_1" ).css('font-size', '100px'); */
-            document.getElementById("btn6").className = "mostrar6";
-            document.getElementById("btn7").className = "esconder7";
-
-            
-            document.getElementById("btn6a").className = "boton2v";
-            document.getElementById("btn7a").className = "boton2";
-
-            
-        }
-        function Menu2() { 
-            /* $( ".text_1" ).css('font-size', '100px'); */
-            document.getElementById("btn6").className = "esconder6";
-            document.getElementById("btn7").className = "mostrar7";
-
-
-            document.getElementById("btn6a").className = "boton2";
-            document.getElementById("btn7a").className = "boton2v";
-
-        }
-    </script> 
+        <script src="script2.js"></script>
 </body>
 </html>

@@ -36,12 +36,43 @@ body {
     margin: 15px;
     text-align: center;
 }
+.button-container {
+    display: flex;
+}
 .buttonc:hover{
-    background-color:#222222;
+    background-color:#cecece;
     color: white;
     cursor: pointer;
 }
+.square-button {
+    width: 250px;
+    height: 70px;
+    background-color: #cecece;
+    border: none;
+    margin-right: 10px;
+    color: #222222;
 
+    font-size: 16px;
+    cursor: pointer;
+}
+.square-buttona {
+    width: 250px;
+    height: 70px;
+    background-color: #00a99d;
+    border: none;
+    margin-right: 10px;
+    color: #fff;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+.square-button:first-child {
+    margin-right: 10px;
+  }
+.square-button:hover{
+    background-color: #00a99d;
+    color: #fff;
+}
 .contenedor{
     margin:auto;
     width: 1024px;
@@ -99,6 +130,7 @@ color: #000000;
     margin-top: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 30px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -150,7 +182,7 @@ color: #000000;
     line-height: 18px;
 }
 
-.esconder6 ,.esconder7{
+.esconder6 ,.esconder7, .esconder8, .esconder9{
 
     padding: 50px;
     padding-left: 50px;
@@ -166,8 +198,19 @@ color: #000000;
 .esconder4 ,
 .esconder5 ,
 .esconder6 ,
-.esconder7 {
+.esconder7 ,
+.esconder8 ,
+.esconder9 {
     display: none;
+}
+
+.titulodes{
+    display: flex;
+    align-items: center;
+}
+.titulodes-image{
+    filter: invert(45%) sepia(19%) saturate(4918%) hue-rotate(145deg) brightness(94%) contrast(101%);
+    margin-right: 15px;
 }
 
 .mostrar1, .mostrar2, .mostrar3, .mostrar4, .mostrar5{
@@ -179,7 +222,7 @@ color: #000000;
     font-size: 15px;
     line-height: 18px; 
 }
-.mostrar6, .mostrar7{
+.mostrar6, .mostrar7, .mostrar8, .mostrar9{
 
     padding: 50px;
     padding-left: 50px;
@@ -217,6 +260,7 @@ color: #000000;
 
 }
 
+
 .boton1 , .boton2 /*,.boton3, .boton4, .boton5, .boton6, .boton7 */{
     margin-top: 5px;
     display: flex;
@@ -243,6 +287,15 @@ color: #000000;
     justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
+}
+.separador3{
+    margin: 5px;
+}
+.boton1  p{
+    text-align: center;
+}
+.boton1v  p{
+    text-align: center;
 }
 .boton1v, .boton2v{
     margin-top: 5px;
@@ -296,6 +349,15 @@ color: #000000;
 
 
 /* Pagina numero 2 */
+.temas{
+    filter: drop-shadow(5.09px 1.697px 8.482px rgba(1, 0, 1, 0.349));
+    background: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222222;
+}
+
 .info5{
     filter: drop-shadow(5.09px 1.697px 8.482px rgba(1, 0, 1, 0.349));
     background: #FFFFFF;
